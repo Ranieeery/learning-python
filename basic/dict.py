@@ -29,6 +29,7 @@ print(dicionario.items())
 print('Fusca' in dicionario)
 print('Ferrari' not in dicionario)
 print(len(dicionario))
+print(sum(dicionario.values()))
 
 # Funções
 print(max(dicionario))
