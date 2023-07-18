@@ -7,12 +7,14 @@ from random import randrange, seed
 
 seed(20042003)
 
-def roll_dice (attempts):
+
+def roll_dice(attempts):
     dice_numbers = []
     for dado in range(attempts):
         dice_numbers.append(randrange(1, 6))
     print(dice_numbers)
     return dice_numbers
+
 
 numbers = roll_dice(100)
 

@@ -1,6 +1,7 @@
 # Dois retornos
-def media (list):
+def media(list):
     return (sum(list) / len(list), len(list))
+
 
 print(media([1, 2, 3, 4, 5]))
 

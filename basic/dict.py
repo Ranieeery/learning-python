@@ -1,4 +1,5 @@
-dicionario = {'Fusca': 1969, 'Gol': 1980, 'Palio': 1999, 'Uno': 2002, 'Celta': 2001}
+dicionario = {'Fusca': 1969, 'Gol': 1980,
+              'Palio': 1999, 'Uno': 2002, 'Celta': 2001}
 print(dicionario)
 
 # Criando dicionário com zip
@@ -44,7 +45,8 @@ carro1, carro2, carro3, carro4, carro5 = dicionario
 print(carro1, carro2, carro3, carro4, carro5)
 
 # Comparação
-print(dicionario == {'Fusca': 1969, 'Gol': 1980, 'Palio': 1999, 'Uno': 2002, 'Celta': 2001})
+print(dicionario == {'Fusca': 1969, 'Gol': 1980,
+      'Palio': 1999, 'Uno': 2002, 'Celta': 2001})
 
 # Imutabilidade
 dicionario['Fusca'] = 1970
