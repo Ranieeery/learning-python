@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 
 # Series: São arrays unidimensionais que podem ser rotulados, ou seja, podemos dar um nome para cada posição do array.
@@ -13,5 +14,5 @@ df = pd.DataFrame({"Nome": ["Fusca", "Gol", "Palio", "Uno", "Celta"],
 print(df)
 
 # Criando um dataframe a partir de um arquivo CSV
-# df = pd.read_csv("./db.csv", sep=";")
+csv = pd.read_csv("./data.csv", sep=";")
 
